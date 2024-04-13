@@ -42,7 +42,7 @@ print("added attachment")
 
 with smtplib.SMTP("smtp.gmail.com") as connection:
     connection.starttls()
-    connection.login(user = "lambdaa112@gmail.com", password = "moyn eugt kmga xrck")
+    connection.login(user = "lambdaa112@gmail.com", password = "xxxxxxx")
     print("logged in")
     connection.sendmail(from_addr="lambdaa112@gmail.com", to_addrs="kamazim121212@gmail.com", msg = msg.as_bytes())
     print("sent email")
